@@ -1,0 +1,29 @@
+# TRELLIS.2 3D Generator - Dependencies
+# Install: pip install -r requirements.txt
+
+# Core
+torch>=2.4.0
+torchvision>=0.19.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# TRELLIS.2 Framework (install from source after cloning TRELLIS.2)
+# These are the deps TRELLIS.2 needs:
+transformers>=4.46.0
+safetensors>=0.4.0
+huggingface_hub>=0.26.0
+modelscope>=1.18.0
+trimesh>=4.0.0
+opencv-python-headless>=4.8.0
+scipy>=1.11.0
+tqdm>=4.65.0
+
+# Rendering & export
+OpenEXR>=3.2.0
+
+# TRELLIS.2-specific (installed from TRELLIS.2 repo)
+# flash-attn, nvdiffrast, o-voxel, flex-gemm, cumesh, utils3d
+# These come from the TRELLIS.2 repository's setup.py
+
+# Post-processing
+rembg>=0.1.0
