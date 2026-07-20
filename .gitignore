@@ -1,0 +1,41 @@
+# Model weights (downloaded separately)
+*.safetensors
+*.bin
+*.ckpt
+*.pth
+*.onnx
+
+# Cache
+~/.cache/trellis2/
+.cache/
+
+# Output
+*.glb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TRELLIS.2 submodule (clone separately)
+TRELLIS.2/
+
+# Images (user provides their own)
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.avif
+
+# Exceptions for examples
+!examples/*.jpg
+!examples/*.png
